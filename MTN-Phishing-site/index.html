@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flow Bundle Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            background-color: rgba(199, 195, 174, 0.812);
+        }
+
+        header {
+            background-color: #434343;
+            color: #fff;
+            width: 100%;
+            height: 20%;
+            padding: 20px 0;
+            text-align: center;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+        }
+
+        .logo {
+            display: flex;
+            justify-content: flex-start; /* Align items to the start of the flex container (far left) */
+            align-items: center; /* Align items vertically */
+            margin-bottom: 10px; /* Adjusted margin bottom for logo */
+            padding-left: 20px;
+        }
+
+        .logo img {
+            max-width: 100%;
+            height: auto;
+            cursor: pointer; /* Change cursor to pointer when hovering over the logo */
+        }
+
+        .tagline {
+            color: #ffffff; /* Yellow text color */
+            font-style: italic; /* Italics */
+            font-weight: bold;
+            padding-left: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        button {
+            background-color: hsla(49, 100%, 57%, 0.812);
+            color: rgb(28, 28, 28);
+            border: none;
+            height: 40px;
+            width: 110px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        article {
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+        }
+
+        h2 {
+            color: #3d3c3c;
+            background-color: hsla(49, 100%, 57%, 0.812);
+            border-radius: 10px;
+            font-size: 20px;
+            text-align: center;
+            padding: 12px;
+            font-weight: 550;
+            max-width: 340px;
+            width: 150%;
+        }
+s
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            width: 100%;
+            height: 6%;
+            text-align: center;
+            position:fixed;
+            font-size: 14px;
+            bottom: 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+        }
+    </style>
+    <script>
+      function toggleContent(postId) {
+          var postContent = document.getElementById(postId);
+          if (postContent.style.display === "none") {
+              postContent.style.display = "block";
+          } else {
+              postContent.style.display = "none";
+          }
+      }
+    </script>
+</head>
+<body>
+    <header>
+        <h1></h1>
+        <!-- Logo with link -->
+        <div class="logo">
+          <a href="https://www.mtn.com">
+              <img src="Images\MTN Logo top right.png" alt="Logo">
+          </a>
+          <span class="tagline">Flow Bundle Blog</span>
+        </div>
+    </header>
+    
+    <main>
+        <article>
+            <h2>Apology and Invitation to Test Our New Flow Bundles Package</h2>
+            <p>Please take a moment to read this Blog post before proceeding with the registration.</p>
+            <p id="post1" style="display: none;">
+              Dear Esteemed MTN Customers,
+              We hope this message finds you well.<br>
+              <br>
+
+              We write to you today with <b>humility</b> and <b>sincerity</b> regarding our recent oversight with the <a href="https://www.mtndatazone.mobi/#/login">Data zone</a> package. We deeply regret the lack of communication surrounding the revisions made to this bundle, and we apologize for any inconvenience this may have caused you. Your satisfaction and trust are of utmost importance to us, and we are committed to rectifying this situation.<br>
+              <br>
+
+              Following your feedback on the revised "Data Zone Bundles" package, it has become apparent that the changes made were not well-received. We understand the frustration this may have caused, and we take full responsibility for not meeting your expectations. Your feedback serves as a guiding light for us, and we are grateful for your candidness.<br>
+              <br>
+
+              In light of this, we are thrilled to announce the upcoming release of our new Flow Bundles package. With the Flow Bundles, we aim to provide you with an unparalleled online experience that meets and exceeds your connectivity needs. These bundles are meticulously designed to offer generous data allowances at competitive prices, ensuring that you stay connected without compromise.<br>
+              <br>
+
+              In contrast to our previous approach, we are taking a different path with the Flow Bundles. We want you, our esteemed customers, to be part of the testing phase to ensure that we deliver a product that aligns with your expectations. Therefore, we are selecting a group of individuals based on their high internet usage to test out the Flow Bundles package before its official release in March of next year, 2025.<br>
+              <br>
+
+              We are pleased to inform you that you have been chosen to participate in this exclusive testing phase. If you have received an SMS containing a link to our website, it signifies that you are part of this month's batch of testers. Your insights and feedback will be invaluable in shaping the final version of the Flow Bundles package, and we extend our heartfelt gratitude for your participation.<br>
+              <br>
+
+              Once again, we extend our sincerest apologies for the oversight with the "Data Zone Bundles" package. We remain committed to serving you with excellence and transparency. Your continued support and understanding mean the world to us, and we are dedicated to earning back your trust.<br>
+              <br>
+              
+
+              Thank you for being an integral part of the MTN community.<br>
+              <br>
+
+              With that being said, please proceed with registering for the Flow Bundle
+            </p>
+            <a href="javascript:void(0);" onclick="toggleContent('post1');">Read more...</a>
+        <article>
+            <h2>MTN Flow Bundles</h2>
+            <p>🚀 MTN Flow Bundles: Everywhere You Go, Connectivity Follows! 🚀</p>
+            <p id="post2" style="display: none;">
+              
+              Experience connectivity like never before with MTN Flow Bundles, designed to keep you connected everywhere you go. Our motto, "Everywhere You Go," resonates through every aspect of our Flow Bundles, ensuring you're always connected, no matter where life takes you.<br>
+              <br>
+
+              🌟 Explore the world of MTN Flow Bundles: 🌟<br>
+              <br>
+              
+              📱 5GB for just 7 GHC: Stay connected on the move with our 5GB Flow Bundle, perfect for staying in touch with friends and family wherever you go.<br>
+              <br>
+              
+              🚀 10GB for only 13 GHC: Double your connectivity power with our 10GB Flow Bundle! Whether you're streaming or working remotely, stay connected effortlessly.<br>
+              <br>
+              
+              💻 15GB at an unbeatable 18 GHC: Enjoy seamless browsing and streaming with our 15GB Flow Bundle, ensuring you're always connected, everywhere you go.<br>
+              <br>
+              
+              🔥 20GB for just 25 GHC: Ignite your online experience with our 20GB Flow Bundle! Stream, game, and connect without limits, no matter where you are.<br>
+              <br>
+              
+              🎉 23GB for only 29 GHC: Experience freedom in connectivity with our 23GB Flow Bundle. Whether you're at home or on the go, stay connected effortlessly.<br>
+              <br>
+              
+              🌐 29GB at an incredible 35 GHC: Explore the online world with our 29GB Flow Bundle, ensuring you're connected everywhere you go, without compromise.<br>
+              <br>
+              
+              💫 35GB for just 39 GHC: Dive into endless possibilities with our 35GB Flow Bundle. Wherever you are, stay connected and empowered with MTN.<br>
+              <br>
+              
+              📡 40GB at an amazing 45 GHC: Power up your online experience with our 40GB Flow Bundle! Stay connected, stay empowered, everywhere you go.<br>
+              <br>
+              
+              🚀 50GB for only 50 GHC: Reach new heights of connectivity with our 50GB Flow Bundle! Whether you're a power user or a casual browser, MTN Flow Bundles have you covered, everywhere you go.<br>
+              <br>
+              
+              Don't miss out on the opportunity to stay connected, everywhere you go. register for the MTN Flow Bundles today and experience connectivity like never before. Stay connected, stay empowered with MTN! 🌐💫<br>
+              <br>
+
+              So what are you waiting for? Click the button below to register today!<br>
+              <br>
+              <a href="register.html">
+                <button>REGISTER</button>
+              </a>              
+
+            </p>
+            <a href="javascript:void(0);" onclick="toggleContent('post2');">Read more...</a>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2013 Multi National Telecommunications Registration. All rights reserved.</p>
+    </footer>
+</body>
+</html>
